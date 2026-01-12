@@ -1,0 +1,15 @@
+﻿@model Employee
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+<h2>Chi tiết nhân viên</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text"><strong>Vị trí:</strong> @Model.Position</p>
+        <p class="card-text"><strong>Tuổi:</strong> @Model.Age</p>
+        <p class="card-text"><strong>Email:</strong> @Model.Email</p>
+    </div>
+</div>
+
+<a href="/Employee" class="btn btn-secondary mt-3">Quay lại</a>
